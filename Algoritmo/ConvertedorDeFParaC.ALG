@@ -3,7 +3,7 @@ var
    F,C: real
 
 inicio
-      Escreval ("Qual a temperatura em Fahrenheit você quer converter?:")
+      Escreval ("Qual a temperatura em Fahrenheit vocÃª quer converter?:")
       Leia (F)
       C <- (F-32)/1.8
       Escreval ("Em celsius, a temperatura fica:", C:4:1)
