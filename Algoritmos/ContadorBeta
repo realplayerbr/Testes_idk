@@ -1,0 +1,15 @@
+algoritmo "contadorbeta"
+var
+usuario2,usuario,contador: inteiro
+inicio
+      Escreval ("quer contar até quanto?")
+      leia (usuario)
+      Escreval ("quer contar de quanto em quanto?")
+      leia (usuario2)
+      contador <- 0
+      Enquanto (contador <= usuario) faça
+      escreval (contador)
+      contador <- contador + usuario2
+      FimEnquanto
+
+fimalgoritmo
